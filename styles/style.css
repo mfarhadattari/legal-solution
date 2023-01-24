@@ -15,3 +15,39 @@
 .ls-card2-bg{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);    
 }
+.ls-carousel-1{
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%) ,url('../images/carousel1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    border-radius: 8px;
+}
+.ls-carousel-2{
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.ls-carousel-3{
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.ls-carousel-4{
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+}
