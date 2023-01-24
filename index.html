@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap" rel="stylesheet">
 
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2505059374.js" crossorigin="anonymous"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./styles/style.css">
 
@@ -20,14 +24,14 @@
 
 </head>
 
-<body class="container-fluid mx-auto ls-font-primary">
+<body class="ls-font-primary">
     <header>
         <!-- Navigation Section -->
         <section>
             <nav class="navbar navbar-expand-lg fixed-top bg-white">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="images/Group 2.png" alt="">
+                        <img src="images/nav-title.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,10 +56,34 @@
                                 <a class="nav-link" href="#">Contract Us</a>
                             </li>
                         </ul>
-
-                        <button class="btn btn-primary">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
                             Free Consultation
                         </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Welcome</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Assalamu Akikum. May Allah Bless You!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </nav>
@@ -70,11 +98,11 @@
                     <p>legal Solutions is a dynamic law firm with a clear vision of the future. We are a firm that
                         understands what clients need today and, equally importantly, what they will need tomorrow.</p>
 
-                    <form class="d-flex justify-content-center mt-5">
-                        <div class="mb-3 w-50 h-100">
+                    <form class="d-flex flex-column flex-md-row justify-content-center gap-3 mt-5">
+                        <div class="mb-3 h-100">
                             <input type="search" class="form-control" placeholder="Search your services">
                         </div>
-                        <button class="btn btn-primary w-25 h-100 ms-4">Search</button>
+                        <button class="btn btn-primary h-100">Search</button>
                     </form>
                 </div>
             </div>
@@ -211,7 +239,9 @@
                                 </div>
                                 <div class="text-white-50 mt-5 pt-5">
                                     <p>
-                                        Education law involves a diverse range of issues from representing children with poor access to education to special education law to education reform. American laws mandate that every child be given the opportunity to an education.
+                                        Education law involves a diverse range of issues from representing children with
+                                        poor access to education to special education law to education reform. American
+                                        laws mandate that every child be given the opportunity to an education.
                                     </p>
                                 </div>
                             </div>
@@ -228,7 +258,9 @@
                                 </div>
                                 <div class="text-white-50 mt-5 pt-5">
                                     <p>
-                                        Education law involves a diverse range of issues from representing children with poor access to education to special education law to education reform. American laws mandate that every child be given the opportunity to an education.
+                                        Education law involves a diverse range of issues from representing children with
+                                        poor access to education to special education law to education reform. American
+                                        laws mandate that every child be given the opportunity to an education.
                                     </p>
                                 </div>
                             </div>
@@ -245,7 +277,9 @@
                                 </div>
                                 <div class="text-white-50 mt-5 pt-5">
                                     <p>
-                                        Education law involves a diverse range of issues from representing children with poor access to education to special education law to education reform. American laws mandate that every child be given the opportunity to an education.
+                                        Education law involves a diverse range of issues from representing children with
+                                        poor access to education to special education law to education reform. American
+                                        laws mandate that every child be given the opportunity to an education.
                                     </p>
                                 </div>
                             </div>
@@ -262,7 +296,9 @@
                                 </div>
                                 <div class="text-white-50 mt-5 pt-5">
                                     <p>
-                                        Education law involves a diverse range of issues from representing children with poor access to education to special education law to education reform. American laws mandate that every child be given the opportunity to an education.
+                                        Education law involves a diverse range of issues from representing children with
+                                        poor access to education to special education law to education reform. American
+                                        laws mandate that every child be given the opportunity to an education.
                                     </p>
                                 </div>
                             </div>
@@ -284,67 +320,97 @@
         </section>
 
         <!-- FAQ Section -->
-        <section class="container mx-auto mt-5">
+        <section class="container mx-auto my-5">
             <div>
                 <div class="text-center w-75 mx-auto mb-5">
                     <h1 class="ls-font-secondary display-6 fw-bold">Frequently Asked Any Questions</h1>
                     <p class="text-secondary-emphasis mt-4">
-                        Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.
+                        Web development is the work involved in developing a website for the Internet or an intranet.
+                        Web development can range from developing a simple single static page of plain text to complex
+                        web applications, electronic businesses, and social network services.
                     </p>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 pt-5 g-5">
                     <div class="order-1 order-md-0">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                            <!-- Question 1 -->
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                    What is Deference Between Flexbox and Grid?
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                  CSS Grid work in two dimension way (both column and row) but CSS Flex work in one dimension way (column or row) 
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        1. What is Deference Between Flexbox and Grid?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        CSS Grid work in two dimension way (both column and row) but CSS Flex work in
+                                        one dimension way (column or row)
+                                    </div>
                                 </div>
-                              </div>
                             </div>
+
+                            <!-- Question 2 -->
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                    what is the purpose of media query?
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                  CSS Media Query is use for making different layout design for different Devices. Its use for make website responsive.
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        2. What is the purpose of media query?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        CSS Media Query is use for making different layout design for different Devices.
+                                        Its use for make website responsive.
+                                    </div>
                                 </div>
-                              </div>
                             </div>
+
+                            <!-- QUestion 3 -->
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                  What is CSS Box Model?
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body">
-                                  CSS box model is a layout design term of html element. It a imaginary box which presented a content neatly. Mainly 4 thing need for box mode. These are: Content, Border, Padding and Margin. Also need height and width of content. 
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        3. What is CSS Box Model?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        CSS box model is a layout design term of html element. It a imaginary box which
+                                        presented a content neatly. Mainly 4 thing need for box mode. These are:
+                                        Content, Border, Padding and Margin. Also need height and width of content.
+                                    </div>
                                 </div>
-                              </div>
                             </div>
+
+                            <!-- Question 4 -->
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                  What is Semantics Tag?
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                                <div class="accordion-body">
-                                    The tag which clearly describe meaning of her and her its  called Semantic tag. Semantic tag describe where we have to used her. Ex- form tag , article  tag, strong tag, nav tag etc.
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        4. What is Semantics Tag?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        The tag which clearly describe meaning of her and her its called Semantic tag.
+                                        Semantic tag describe where we have to used her. Ex- form tag , article tag,
+                                        strong tag, nav tag etc.
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
+
+                        </div>
                     </div>
+
                     <div class="order-0 order-md-1">
                         <img class="img-fluid" src="./images/faq.png" alt="">
                     </div>
@@ -353,8 +419,61 @@
         </section>
     </main>
 
-    <footer>
-        
+    <footer class="bg-black text-white py-5">
+        <section class="container mx-auto">
+            <div class="my-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+                    <div>
+                        <img src="./images/footer-title.png" alt="">
+                        <p class="mt-5">Law is a set of rules that are created and are enforceable by social or
+                            governmental institutions
+                            to regulate behavior,with its precise definition a matter of longstanding debate</p>
+                    </div>
+
+                    <div>
+                        <h3 class="ls-font-secondary">Useful Link</h3>
+                        <ul class="list-unstyled mt-5">
+                            <li><a class="text-decoration-none text-white" href="#">Home</a></li>
+                            <li><a class="text-decoration-none text-white" href="#">About</a></li>
+                            <li><a class="text-decoration-none text-white" href="#">Cases</a></li>
+                            <li><a class="text-decoration-none text-white" href="#">Blogs</a></li>
+                            <li><a class="text-decoration-none text-white" href="#">Contract Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="ls-font-secondary">Contract Now</h2>
+                        <div class="mt-5">
+                            <p>
+                                555 4th 5t NW, Washington
+                                DC 20530, United States
+                            </p>
+                            <p>
+                                +88 01750 000 000 <br>
+                                +88 01750 000 000
+                            </p>
+                            <p>
+                                info@gmail.com <br>
+                                info@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="ls-font-secondary">Subscribe</h2>
+                        <p class="mt-5">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                        <form action="">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Email Address">
+                                <button class="btn btn-primary" type="button" id="button-addon2"><img src="" alt=""><i
+                                        class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </footer>
 
 
