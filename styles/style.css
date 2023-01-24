@@ -18,7 +18,7 @@
 .ls-carousel-1{
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%) ,url('../images/carousel1.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -27,7 +27,7 @@
 .ls-carousel-2{
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel2.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -36,7 +36,7 @@
 .ls-carousel-3{
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel3.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -45,7 +45,7 @@
 .ls-carousel-4{
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/carousel4.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
